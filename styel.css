@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 2px white;
+    transition: transform 0.5s;
+}
+header img:hover{
+    transform: scale(1.1);
+}
+header h1{
+    font-size: 30px;
+    margin-top: 10px;
+    background :linear-gradient(red, azure);
+    background-clip: text;
+    color: transparent;
+}
+header p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.about{
+    padding: 20px;
+    background-color: azure
+}
+.about h2{
+    text-align: center;
+    font-size: 1.80em;
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.about p{
+    font-size: 1.20em;
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.xyz{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hobbys img{
+    height: 250px;
+    width: 250px;
+    border-radius: 180px;
+    margin: 10px;
+    border: 5px solid navajowhite;
+    transition: 1s;
+}
+.hobbys img:hover{
+    transform: scale(1.1);
+}
+.hobbys p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.20em;
+    /* padding-left: 35%; */
+    margin-bottom: 10px;
+}
+.hobbys{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: linear-gradient(white, orange);
+}
+#skills li{
+    font-size: 1.20em;
+    font-family: 'Courier New', Courier, monospace;
+    color: olivedrab;
+}
+#skills {
+    background-color: azure;
+    padding: 2%;
+}
+#skills h2{
+    text-align: center;
+    padding: 10px;
+}
+.experience p{
+    font-size: 1.20em;
+    color: olivedrab;
+    padding: 10px;
+}
+.experience h2, h3{
+    padding: 10px;
+}
+.education{
+    background-color: azure;
+    padding: 10px 0;
+    text-align: center;
+}
+.education h2{
+    font-size: 1.80em;
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.education h4{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(170, 119, 24);
+}
+.education p,pre{
+    font-size: 1.20em;
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer h2{
+    padding: 8px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer p{
+    text-align: center;
+    font-size: larger;
+}
+footer{
+    padding: 10px 0;
+    background-image: linear-gradient(orange, white);
+}
+.div1{
+    background-color: azure;
+    border: 5px solid orange;
+    margin: 1.9em;
+}
+@media only screen and (max-width:600px){
+    .about p{
+        font-size: 0.90em;
+    }
+    .hobbys img{
+        border-radius: 500px;
+        height: 100px;
+        width: 100px;
+    }
+    header img{
+        border-radius: 500px;
+        width: 100px;
+        height: 100px;
+    }
+    .education h4{
+        font-size: 0.90em;
+        color: aliceblue;
+    }
+    .div1{
+        background-color: azure;
+        border: 2% solid orange;
+        margin: 2%;
+    }
+    li {
+        list-style-type: none;
+    }
+}
+@media only screen and (max-width:329px){
+    footer p{
+        font-size: 0.70em;
+    }
+    footer h2{
+        font-size: 0.90em;
+    }
+    .div1{
+        background-color: azure;
+        border: 2% solid orange;
+        margin: 2%;
+    }
+    li {
+        list-style-type: none;
+    }
+}
+
+
